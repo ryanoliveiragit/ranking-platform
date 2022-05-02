@@ -1,0 +1,47 @@
+.searchinput {
+  margin-top: -1.1%;
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+}
+
+.serach{
+  text-align: right;
+}
+
+.listall a  {
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+.listall {
+  margin-top: 10%;
+}
+
+
+ul {
+  position:relative;  /* reset do position, não relacionado ao demo, mas bom pra uso geral.  */
+  margin:0;           /* Zeramos as margens e o padding do UL para as células.encostarem     */
+  padding:0;
+  width:100%;         /* por default, os blocos são 100%, mas vamos garantir isso.           */
+  height:100%;         
+}
+
+
+li {
+  display:block;             /* primeiro passo, transformar o LI em bloco.                   */ 
+  list-style-type: none;     /* depois, remoção dos bullets.                                 */
+  margin:0;                  /* nao queremos espaços ente os blocos.                         */     /* cor de fundo principal, o "grid" fazemos depois              */
+  box-sizing: border-box;    /* medidas são de borda à borda, o padding não é acrescentado.  */
+  height:25%;                /* esta linha é pela estética do demo                           */
+}
+
+li:nth-child(odd) {          /* este css será aplicato nos LI impares (1, 3, 5... ).         */
+  clear:both;                /* forçamos a quebra de linha por segurança...                  */
+  float:left;                /* ... e o alinhamos à esquerda.                                */                /* Aplicamos 50% na esquerda, os da direita "herdam" o resto.   */
+}
+
+li img {
+    width: 20%;
+}
