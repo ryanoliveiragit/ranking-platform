@@ -1,5 +1,10 @@
-const card = getElementsByClassName('.animals');
+var btn = document.querySelector('#show-or-hide');
+var container = document.querySelector('.ocute');
 
-function ampliar() {
-    card.style.width = '100%';
-}
+btn.addEventListener('click',function(){
+    if(container.style.display === 'block') {
+    container.style.display = 'none';  
+    } else {
+        container.style.display = 'block';
+    }
+});
