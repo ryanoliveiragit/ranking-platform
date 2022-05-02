@@ -30,6 +30,16 @@ ol {
 
 #list img {
   float: left;
-  width: 20%;
-  padding: 2%;
+  width: 15%;
+  padding: 0%;
+  transition: 0.5s;
 }
+
+#list img:hover {
+  transition: 1s;
+  transform: scale(1.05);
+  cursor:pointer;
+}
+
+
+
