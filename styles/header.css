@@ -1,13 +1,12 @@
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 25px;
+    background-color: #f1f1f1b2;
+    padding: 0px 45px;
     border-radius: 5px;
   }
   
   /* Style the header links */
   .header a {
-    float: left;
     color: rgb(39, 39, 39);
     text-align: center;
     padding: 10px;
@@ -39,11 +38,12 @@
   
   /* Float the link section to the right */
   .header-right {
+    margin-top: 4%;
     float: right;
   }
 
-  .header img {
-    width: 10%;
+  .banner img {
+    width: 99vw;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -57,3 +57,61 @@
       float: none;
     }
   }
+
+  .myButton {
+    background-color:#44c76700;
+    border-radius:12px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 47.5%;
+    font-size:21px;
+    text-decoration:none;
+  }
+
+  .myButton2 {
+    background-color:#44c76700;
+    border-radius:12px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 47.5%;
+    font-size:21px;
+    text-decoration:none;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  .voltar {
+    width: 3vh;
+    margin-left: 20%!important;
+  }
+
+  .setinha {
+    width: 2em;
+    padding-top: 16vh;
+    margin-left: 60vh;
+  }
+
+  .voltas {
+    display: block;
+  }
+
+span {
+    color: #77d091;
+    transition: 1;
+}
+
+a:hover {
+  transition: 0.7s;
+  color: #77d091;
+}
+
